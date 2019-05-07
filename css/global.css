@@ -1,0 +1,40 @@
+.gold-text{
+	color: #fec30e !important;
+}
+.gold-bg{
+	background-color: #fec30e !important;
+}
+.maroon-text{
+	color: #800000 !important;
+}
+.maroon-bg,
+.pagination li.active{
+	background-color: #800000 !important;
+}
+
+.bolder{
+	font-weight: bolder !important;
+}
+.capitalize{
+	text-transform: uppercase !important;
+}
+
+.dashboard-home{
+	background-image: url('../img/background-home.png');
+	background-position: center;
+	background-size: cover;
+	min-height: 300px;
+}
+
+.footer-look{
+	background-image: url('../img/pine-trees.jpg');
+	background-position: center;
+	background-size: cover;
+	min-height: 300px;
+}
+
+
+.starter{
+	margin-block-start: 0;
+	padding: 1em 0 0 1em;
+}

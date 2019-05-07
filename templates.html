@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CNU Grades | Instructor Templates</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="css/materialize.min.css">
+	<link rel="stylesheet" type="text/css" href="css/icons.css">
+	<link rel="stylesheet" type="text/css" href="css/global.css">
+</head>
+<body>
+<!-- NAV -->
+  <nav class="nav-extended">
+    <div class="nav-wrapper maroon-bg">
+      <a href="#" class="brand-logo center">CNU | GRADES</a>
+      <ul id="nav-mobile" class="left hide-on-med-and-down">
+        <li><a href="dashboard.html"><i class="material-icons left">home</i>Home</a></li>
+        <li><a href="subjects.html"><i class="material-icons left">lightbulb_outline</i>Subjects</a></li>
+        <li><a href="classes.html"><i class="material-icons left">import_contacts</i>Classes</a></li>
+      </ul>
+      <ul id="nav-mobile1" class="right hide-on-med-and-down">
+        <li><a href="students.html"><i class="material-icons left">account_circle</i>My Students</a></li>
+        <li><a href="templates.html"><i class="material-icons left">create</i>Templates</a></li>
+        <li><a href="index.html"><i class="material-icons left">power_settings_new</i>Logout</a></li>
+      </ul>
+    </div>
+    <div class="nav-content maroon-bg">
+      <ul class="tabs tabs-transparent">
+        <li class="tab col s3"><a  class="active" href="#myTemplates">My Templates</a></li>
+        <li class="tab col s3"><a href="#templateForm">Template Form</a></li>
+      </ul>
+    </div>
+  </nav>
+
+ <!-- CONTENT -->
+<div class="container ">
+  <div class="row">
+      <div id="myTemplates" class="col s12">
+        <div >
+          <h3>My Templates</h3>
+          <div class="card-panel">
+            <table class="table">
+              <thead>
+                <tr>
+                  <th>No</th>
+                  <th>Template Name</th>
+                  <th></th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>1</td>
+                  <td>NSTP 2 Template: 1st Semester: SY 2019-2020</td>
+                  <td><a class="btn btn-floating maroon-bg" href="info-template.html"><i class="material-icons">search</i></a></td>
+                </tr>
+                <tr>
+                  <td>2</td>
+                  <td>HRM Template: 1st Semester: SY 2019-2020</td>
+                  <td><a class="btn btn-floating maroon-bg disabled"><i class="material-icons">search</i></a></td>
+                </tr>
+                <tr>
+                  <td>3</td>
+                  <td>Mngt and Admin Template: 1st Semester: SY 2019-2020</td>
+                  <td><a class="btn btn-floating maroon-bg disabled"><i class="material-icons">search</i></a></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+      <div id="templateForm" class="col s12">
+        <div>
+          <h3>Create New Template</h3>
+          <div class="card-panel">
+            <div class="container">
+              <div class="row">
+                <div class="input-field col s12">
+                  <i class="material-icons prefix">create</i>
+                  <input id="templateName" type="text" class="validate">
+                  <label for="templateName">New Template Name</label>
+                </div>
+                <div class="input-field col s6">
+                  <i class="material-icons prefix">grade</i>
+                  <input id="classStanding" type="number" class="validate" value="60">
+                  <label for="classStanding">Class Standing Percentage</label>
+                </div>
+                <div class="input-field col s6">
+                  <i class="material-icons prefix">check</i>
+                  <input id="majorExams" type="number" class="validate" value="40">
+                  <label for="majorExams">Major Exams Percentage</label>
+                </div>
+                <br/>
+                <p>Class Standing Input Fields</p>
+                <div class="row">
+                  <div class="input-field col s6">
+                  <i class="material-icons prefix">date_range</i>
+                    <input id="tasks" type="number" class="validate" value="1">
+                    <label for="tasks">No. of Tasks</label>
+                  </div>
+                  <div class="input-field col s6">
+                  <i class="material-icons prefix">chrome_reader_mode</i>
+                    <input id="tasks" type="number" class="validate" value="1">
+                    <label for="tasks">No. of Homeworks</label>
+                  </div>
+                  <div class="input-field col s6">
+                  <i class="material-icons prefix">content_copy</i>
+                    <input id="tasks" type="number" class="validate" value="1">
+                    <label for="tasks">No. of Outputs</label>
+                  </div>
+                  <div class="input-field col s6">
+                  <i class="material-icons prefix">camera_roll</i>
+                    <input id="tasks" type="number" class="validate" value="1">
+                    <label for="tasks">No. of Performances</label>
+                  </div>
+                </div>
+                <div class="col s8 offset-s2 center">
+                  <button class="btn btn-large maroon-bg sweet-success"><i class="material-icons left">save</i>Create Template</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  </div>
+</div>
+<!-- END CONTENT -->
+
+
+  <footer class="page-footer dashboard-home">
+  <div class="container">
+    <div class="row">
+      <div class="col l6 s12">
+        <h5 class="white-text">CNU Grades</h5>
+        <p class="grey-text text-lighten-4">The Portal to a better grading experience</p>
+      </div>
+      <div class="col l4 offset-l2 s12">
+        <h5 class="white-text">Sections</h5>
+        <ul>
+          <li><a class="grey-text text-lighten-3" href="subjects.html">Subjects</a></li>
+          <li><a class="grey-text text-lighten-3" href="classes.html">Classes</a></li>
+          <li><a class="grey-text text-lighten-3" href="students.html">Students</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="footer-copyright">
+    <div class="container">
+    © 2019 Copyright Text
+    <a class="grey-text text-lighten-4 right" href="#!">More</a>
+    </div>
+  </div>
+</footer>
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/materialize.min.js"></script>
+<script type="text/javascript" src="js/sweetalert2.all.min.js"></script>
+<script type="text/javascript" src="js/dataTables.material.min.js"></script>
+<script type="text/javascript" src="js/global.js"></script>
+</body>
+</html>

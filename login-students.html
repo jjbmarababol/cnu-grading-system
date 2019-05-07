@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CNU Grades | Student Login</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="css/materialize.min.css">
+	<link rel="stylesheet" type="text/css" href="css/moving-bg.css">
+	<link rel="stylesheet" type="text/css" href="css/icons.css">
+	<link rel="stylesheet" type="text/css" href="css/global.css">
+	<style type="text/css">
+		body{
+			height: 100vh;
+			width: 100vw;
+		}
+	</style>
+</head>
+<body class="valign-wrapper	">
+
+<div class="context">
+	<div class="container">
+		<div class="row">
+			<div class="col s8 offset-s2">
+				<div class="row">
+					<div class="col s12">
+					<div class="card login-card center-align">
+						<div class="card-image">
+							<img class="responsive-img"  style="filter: grayscale(0.5);" src="img/cebu-normal-university.jpg">
+							<a class="btn-floating halfway-fab waves-effect waves-light maroon-bg tooltipped"  href="index.html" data-position="right" data-tooltip="Switch as Instructor"><i class="material-icons">undo</i></a>
+						</div>
+						<div class="card-content">
+							<span class="card-title center maroon-text">CNU Grades | Students</span>
+								<div class="row">
+									<div class="col s8 offset-s2">
+										<!-- FORM -->
+										<form class="col s12" action="javascript:void(0);">
+											<div class="row">
+												<div class="input-field col s12">
+													<input id="id" type="text" class="validate" required>
+													<label for="id">Student ID</label>
+													<span class="helper-text" data-error="Invalid Student ID" data-success="Valid Student ID"></span>
+												</div>
+												<div class="input-field col s12">
+													<input id="password" type="password" class="validate" required>
+													<label for="password">Password</label>
+													<span class="helper-text" data-error="Password is Required"></span>
+												</div>
+												<div class="col s12 center">
+													<a class="waves-effect waves-light gold-bg maroon-text btn btn-large" href="dashboard-student.html"><i class="material-icons left">check</i>Login</a>
+												</div>
+											</div>
+											
+										</form>
+										<!-- END FORM -->
+									</div>
+								</div>
+						</div>
+					</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="area" >
+	<ul class="circles">
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+	</ul>
+</div >
+
+<script type="text/javascript" src="js/materialize.min.js"></script>
+<script type="text/javascript" src="js/global.js"></script>
+</body>
+</html>
